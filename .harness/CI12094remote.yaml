@@ -1,0 +1,13 @@
+pipeline:
+  name: CI-12094-remote
+  identifier: CI12094remote
+  projectIdentifier: ShobhitTesting
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: CI
+        identifier: CI
+        template:
+          templateRef: CI12094
+          versionLabel: Version1
